@@ -17,9 +17,9 @@ git branch -d 分支 #删除分支
 
 git remote add 别名 远程地址 #取别名 （--local）
 git remote -v	# 查看所有别名
-git push -u 别名/远程地址 分支 # 推送代码到远端（可能需要登录github账号）
+git push -u 别名/远程地址 本地分支 # 推送代码到远端（可能需要登录github账号）
 git clone 远程地址/别名 # 克隆所有（第一次）代码到本地
-git pull 仓库 分支 # 拉取代码（更新）到本地工作区
+git pull 仓库 远程分支 # 拉取代码（更新）到本地工作区
 git fetch 仓库 分支 #拉取到本地版本库
 
 git rebase #变基：版本合并、分支融合
